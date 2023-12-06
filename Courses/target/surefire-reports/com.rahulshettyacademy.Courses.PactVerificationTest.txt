@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.rahulshettyacademy.Courses.PactVerificationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.3 s <<< FAILURE! - in com.rahulshettyacademy.Courses.PactVerificationTest
+pactVerificationTestTemplate{PactVerificationContext}  Time elapsed: 0.3 s  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid pact broker host specified ('${pactbroker.host:}'). Please provide a valid host or specify the system property 'pactbroker.host'.
+
