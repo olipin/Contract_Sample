@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.rahulshettyacademy.testsIT
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.634 sec <<< FAILURE! - in com.rahulshettyacademy.testsIT
+addBookIntegrationTest(com.rahulshettyacademy.testsIT)  Time elapsed: 29.379 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201 CREATED> but was:<202 ACCEPTED>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.rahulshettyacademy.testsIT.addBookIntegrationTest(testsIT.java:59)
+
